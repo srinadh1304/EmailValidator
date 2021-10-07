@@ -1,4 +1,4 @@
-let emailRegex = RegExp("^abc([.+\\-_][a-zA-Z0-9]+)?@bridgelabz.co$");
+let emailRegex = RegExp("^abc([.+\\-_][a-zA-Z0-9]+)?@bridgelabz.co(.[a-z]{2})$");
 
 function validateEmail(email){
     if(emailRegex.test(email))
